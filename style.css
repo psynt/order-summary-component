@@ -28,6 +28,7 @@ body {
 
 main {
     max-width: 400px;
+    min-width: 350px;
     border-radius: 1rem;
     overflow: hidden;
     display: flex;
@@ -43,11 +44,16 @@ h1 {
     text-align: center;
     color: var(--dark-blue);
     max-width: 300px;
+    min-width: 200px;
     margin: auto;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 .subtitle {
-    max-width: 300px;
+    max-width: 90%;
     margin: auto;
 }
 
@@ -60,7 +66,7 @@ h1 {
     min-height: 3rem;
     background-color: var(--very-pale-blue);
     padding: 1rem;
-    width: 300px;
+    min-width: 80%;
     margin: auto;
     border-radius: .5rem;
 }
@@ -83,19 +89,34 @@ h1 {
     font-weight: 700;
 }
 
+.change:hover {
+    color: var(--dark-blue);
+}
+
 
 .pay {
-    min-width: 300px;
+    min-width: 80%;
     margin: auto;
     background-color: var(--bright-blue);
     color: white;
     padding: .8rem;
     border-radius: .5rem;
     box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
+    font-weight: 700;
 
+}
+
+.pay:hover {
+    background-color: var(--dark-blue);
 }
 
 .cancel {
     margin-top: .5rem;
     margin-bottom: .5rem;
+    font-weight: 700;
+}
+
+
+.cancel:hover {
+    color: var(--dark-blue);
 }
