@@ -22,8 +22,10 @@ body {
     display: grid;
     place-content: center;
     text-align: center;
-    background-color: gray;
+    background-color: #E1E9FF;
     color: var(--desaturated-blue);
+    padding: 0;
+    margin: 0;
 }
 
 main {
